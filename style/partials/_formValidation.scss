@@ -1,0 +1,15 @@
+.formValidation {
+	position: absolute;
+	z-index: 10;
+	padding:0;
+	color: red;
+	top: 20%;
+	left: -30px;
+	transform:rotate(-30deg);
+	font-weight: bold;
+	background-color: white;
+	p {
+		padding: 10px;
+		margin: 0;
+	}
+}

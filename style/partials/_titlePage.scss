@@ -1,0 +1,42 @@
+.titlePage {
+	height:80vh;
+	.startNow {
+		position:relative;
+		background-color: white;
+		max-width: 300px;
+		width:80%;
+		height:300px;
+		margin:0 auto;
+		padding:10px;
+		text-transform: uppercase;
+		-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		cursor:pointer;
+	h2 {
+		line-height:1.2;
+		padding-top:15px;
+		padding-bottom: 0;
+		position: relative;
+		top:40%;
+		transform:translateY(-50%);
+		color: black;
+	}
+	span {
+		font-size: 50px;
+	}
+	i {
+		position: absolute;
+		bottom:25px;
+		color:$yellow;
+		font-size:60px;
+		left:50%;
+		transform:translateX(-50%);
+		}
+	}
+}
+
+h1 {
+	font-size:60px;
+	margin-top: 10px;
+}
+

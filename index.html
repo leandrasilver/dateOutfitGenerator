@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Date Outfit Generator</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,700" rel="stylesheet">
+	<!-- Twitter -->
+	<link rel="canonical"
+ 	 href="https://dev.twitter.com/web/tweet-button">
+ 	 <!-- favicon -->
+	<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.png">
+</head>
+<body>
+
+		<section class="titlePage">
+			<div class="wrapper">
+				<h1>Date Outfit Generator</h1>
+				<!-- Add some cute hexagons for style -->
+				<!-- Make a hexagon a start now with an arrow  -->
+				<div class="startNow">
+					<h2>Take the <br><span> Quiz </span></h2>
+					<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+				</div>
+			</div>
+		</section> <!-- End of title page -->
+		<section class="questions">
+			<div class="wrapper">
+					<h1> Date Outfit Generator </h1>
+				<div class="modal">
+					<div class="formValidation"></div>
+					<form action="">
+						<fieldset class="dateOptions">
+							<p>What kind of date are you going on?</p>
+							<div class="flexParent">
+								<label for="active">Active</label>
+								<input type="radio" name="typeOfDate" id="active" value="active">
+								<label for="intellectual">Intellectual</label>
+								<input type="radio" name="typeOfDate" id="intellectual" value="intellectual">
+								<label for="netChill">NetFlix and Chill</label>
+								<input type="radio" name="typeOfDate" id="netChill" value="netChill">
+								<label for="boozy">Boozy</label>
+								<input type="radio" name="typeOfDate" id="boozy" value="boozy">
+							</div>
+						</fieldset> <!-- end of date options -->
+						<fieldset class="temperature">
+							<p>How hot or cold is it today?</p>
+							<div class="flexParentCenter">
+								<label for="warm">Warm</label>
+								<input type="radio" name="warmOrChilly" id="warm" value="warm">
+								<label for="chilly">Chilly</label>
+								<input type="radio" name="warmOrChilly" id="chilly" value="chilly">
+							</div>
+						</fieldset> <!-- End of temperature options -->
+						<fieldset class="timeOfDay">
+							<p>Is your date during the day or the night?</p>
+							<div class="flexParentCenter">
+								<label for="day">Daytime</label>
+								<input type="radio" name="dayOrNight" id="day" value="day">
+								<label for="night">Nighttime</label>
+								<input type="radio" name="dayOrNight" id="night" value="night">
+							</div>
+						</fieldset> <!-- End of time of day options -->
+					</form>
+				</div>
+			<div class="submitContainer">
+				<div class="animationContainer">
+					<h2>Find me an <span>outfit!</span></h2>
+				</div>
+			</div>
+			</div> <!-- end of wrapper -->
+		</section> <!-- End section of questions -->
+		
+		<section class="answer">
+			<div class="wrapper">
+			<h1> Date Outfit Generator </h1>
+				<div class="modal">
+					<div class="imageContainer"></div>
+				</div>
+				<div class="submitContainer resetButton">
+					<div class="animationContainer">
+						<h2>Go On <span>Another Date!</span></h2> 
+					</div>
+				</div>
+			</div>
+			<div class="twitterSection">	
+				<a class="twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=Going%20%20On%20A%20date%3F%20Generate%20your%20outfit!" data-size="large">
+				Tweet</a>
+			</div>
+		</section>
+
+
+	<footer class="flexFooter">
+		<p>Designed and Developed by:<br> <a href="https://www.twitter.com/leandrasilver"><i class="fa fa-twitter"></i></a> Leandra Silver and <a href="https://twitter.com/ilanalily_"><i class="fa fa-twitter"></i></a> Ilana Solomons</p>
+		<p>&copy;2016</p>	
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src="script.js"></script>
+</body>
+</html>

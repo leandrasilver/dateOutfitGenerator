@@ -1,0 +1,118 @@
+// General Styles
+
+body {
+	font-family: $titleFont, sans-serif;
+	background-image: linear-gradient(to right bottom, $lightPurple 48%,  $yellow 48%);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color: $yellow;
+}
+
+.flexParent {
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	flex-wrap: wrap;
+}
+
+.flexParentCenter {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-wrap: wrap;
+}
+
+.flexFooter {
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
+.wrapper {
+	width: 50%;
+	margin: 5% auto;
+	max-width: 1000px;
+	min-width: 280px;
+	text-align: center;
+}
+
+.imageContainer {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.imageContainer img {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.modal {
+	background-color: white;
+	padding: 15px;
+}
+
+.answer .wrapper {
+	position: relative;
+}
+
+// Footer Styles 
+footer {
+	padding:10px 20px 2px 20px;
+	p{
+		padding-top:10px;
+		font-size:15px;
+		color:$darkPurple;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.fa-twitter {
+		color:$lightPurple;
+		text-shadow:1px 1px 0 $darkPurple;
+		&:hover,
+		&:focus {
+			color: $brown;
+			transform:scale(1.5);
+		}
+	}
+}
+
+// Javascript classes
+.jsSelectedLabel {
+	color: $brown;
+	// Needs to be bold
+	// font-weight: bolder;
+	transform: scale(1.2, 1.2);
+	// display: inline-block;
+	&::before {
+		position: relative;
+		content:'\f00c';
+		left:1px;
+		font-family:Fontawesome;
+		font-size: 14px;
+	}
+}
+
+.jsHide {
+	display: none;
+}
+
+// Animations
+@keyframes bounce {
+	0%{
+		transform: translateY(10px);
+	}
+	50%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(10px);
+	}
+}
+
+@keyframes rotateAround {
+	100%{
+		transform: rotatez(360deg);
+	}
+}
